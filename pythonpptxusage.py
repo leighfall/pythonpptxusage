@@ -6,9 +6,9 @@ from datetime import datetime
 import os
 
 # Opens a presentation called 'test' that already exists
-# print("\nusage: [name_of_powerpoint.pptx]")
-# name = input("Enter the name of a PowerPoint presentation to be generated: ")
-# prs = Presentation(name)
+print("\nusage: [name_of_powerpoint.pptx]")
+name = input("Enter the name of a PowerPoint presentation to be generated: ")
+prs = Presentation(name)
 # prs = Presentation('test.pptx')
 # prs.save('new.pptx')
 
